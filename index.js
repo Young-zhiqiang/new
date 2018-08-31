@@ -1,8 +1,6 @@
 const express = require('express');
 const server = express();
 server.get('/',(req,res) => {
-    res.send('打开的是傻瓜');
-
-
+    res.send('a');
 });
-server.listen(80)
+server.listen(2000)
